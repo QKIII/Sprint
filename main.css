@@ -1,0 +1,35 @@
+.item	{
+
+    text-align: center;
+    padding: 10px 0px;
+    border: 3px solid #0e8fced1;
+    border-radius: 3px;
+    color:#0e8fced1;
+    text-decoration: none;
+}
+.bloc-owl
+{
+	background-color: #020506;
+	padding: 20px 0;
+}
+.item > h4 {
+	font-family: 'Anton' ,sans-serif;
+	font-style: normal;
+	font-weight: 400;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+h1, h2, h3, #bloc-1 h1  {
+	font-family: 'Anton', sans-serif; 
+}
+p{
+font-family: 'Roboto', sans-serif;
+}
+.divider-h {
+    margin-bottom: 100px;
+}
+.info h1, .info p{
+	    color: #ffffffba;
+}
