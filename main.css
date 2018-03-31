@@ -74,3 +74,12 @@ p strong {
     margin-left: 0;
     margin-right:0;
 }
+.d-bloc .divider-h span {
+    border-color: rgb(81, 185, 226);
+}
+.divider-h span {
+    border-top: 10em solid transparent;
+}
+.divider-half {
+    width: 1%;
+    }
