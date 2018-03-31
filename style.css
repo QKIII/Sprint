@@ -6,7 +6,7 @@
 body{
 	margin:0;
 	padding:0;
-    background: #020102;
+    background: #010002;
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -33,6 +33,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc .container{
 	padding-left:0;
 	padding-right:0;
+	background-color:none;
 }
 
 
