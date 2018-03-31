@@ -2,7 +2,9 @@
 	    DailySprint
         Built with Blocs
 -----------------------------------------------------------------------------------*/
-
+html{
+	overflow-x: hidden;
+}
 body{
 	margin:0;
 	padding:0;
