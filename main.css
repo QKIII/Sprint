@@ -75,11 +75,38 @@ p strong {
     margin-right:0;
 }
 .d-bloc .divider-h span {
-    border-color: rgb(81, 185, 226);
+    border-color: #3b819c;
 }
 .divider-h span {
-    border-top: 10em solid transparent;
+    border-top: 0.1em solid transparent;
 }
 .divider-half {
-    width: 1%;
+    width: 10%;
     }
+.foot{
+
+    margin-bottom: 10px;
+}
+.icon-md{
+      color:#3b819c  !important;  
+}
+.icon-md:hover {
+      color:#36b1e2  !important;  
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #c32643;
+}
+.owl-story p{
+    font-size: 14px !important;
+    line-height: 16.5px !important;
+    letter-spacing: 2px;
+
+}
+.owl-story .quote{
+    font-weight: 900;
+}
+
+
+
+
+
