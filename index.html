@@ -18,7 +18,6 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/blocs.min.js"></script>
     <script src="./js/lazysizes.min.js" defer></script>
-    <script sec="./js/mousescroll.js"></script>
     <script src="./js/owl.carousel.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
     <title>Daily Sprint</title>
@@ -1324,44 +1323,43 @@
     </div>
     <!-- Main container END -->
     <script>
-    var owl = $('.owl-nav');
-    owl.owlCarousel({
-        center: true,
-        dots: false,
-        loop: true,
-        margin: 10,
-        nav: false,
-        responsive: {
-            0: {
-                items: 5
-            },
-            600: {
-                items: 8
-            },
-            1000: {
-                items: 10
-            }
-        }
-    });
-    var story = $('.owl-story');
-    story.owlCarousel({
-        center: true,
-        dots: true,
-        loop: false,
-        margin: 10,
-        nav: false,
-        items:1
-    });
+    // var owl = $('.owl-nav');
+    // owl.owlCarousel({
+    //     center: true,
+    //     dots: false,
+    //     loop: true,
+    //     margin: 10,
+    //     nav: false,
 
-    // Mouse wheel navigation for owl 
-    // owl.on('mousewheel', '.owl-stage', function (e) {
-    //     if (e.deltaY>0) {
-    //         owl.trigger('next.owl');
-    //     } else {
-    //         owl.trigger('prev.owl');
-    //     }
-    //     e.preventDefault();
     // });
+            $(document).ready(function() {
+            $('.owl-nav').owlCarousel({
+              margin: 10,
+              center: true,
+              dots: false,
+              nav: false,
+              loop: true,
+              responsive: {
+                  0: {
+                      items: 5
+                  },
+                  600: {
+                      items: 5
+                  },
+                  1000: {
+                      items: 5
+                  }
+              }
+
+            });
+
+              $('.owl-story').owlCarousel({
+                items: 1,
+                margin: 10,
+                autoHeight: true
+              });
+
+            })
 
     // Smooth scroll 
     $('.smooth-goto').on('click', function() {
